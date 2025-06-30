@@ -18,7 +18,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  border-radius: 0 0 10% 0% / 0 0 20% 0%;
+  border-radius: 0 0 10% 10% / 0 0 20% 20%;
   font-family: "EB Garamond", serif;
   background-image: linear-gradient(-40deg,
     rgba(61, 51, 147, 0.4) 0%,
