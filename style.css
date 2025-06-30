@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+
+body {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* コンテナ */
+.container {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 0 0 10% 0% / 0 0 20% 0%;
+  font-family: "EB Garamond", serif;
+  background-image: linear-gradient(-40deg,
+    rgba(61, 51, 147, 0.4) 0%,
+    rgba(43, 118, 185, 0.4) 37%,
+    rgba(44, 172, 209, 0.4) 65%,
+    rgba(53, 235, 147, 0.4) 100%);
+}
+
+.clock {
+  width: 450px;
+  color: #f5f7fa;
+  text-shadow: 3px 5px 10px #001e43;
+  text-align: center;
+}
+
+.clock-time {
+  font-size: 140px;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  margin: 0 auto;
+}
+
+.clock-date {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto 0;
+  padding: 0 20px;
+  height: 100px;
+}
+.date-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  line-height: 1;
+}
+
+.year-small {
+  font-size: 2em;
+  letter-spacing: 1em;
+  margin-bottom: -12px;
+  text-align: center;
+  padding-left: 15%;
+  text-shadow: 3px 5px 5px #001e43;
+}
+
+.monthday-line {
+  font-size: 85px;
+  line-height: 1;
+  text-align: center;
+}
+
+.date-right {
+  font-size: 105px;
+  padding-left: 15px;
+  margin-top: -20px;
+}
+
+/* 区切り線 */
+hr {
+  width: 450px;
+  margin: 10px 0 20px 25px;
+  height: 4px;
+  border: none;
+  box-shadow: 0 5px 10px #001e43;
+  background-image: linear-gradient(to right, #E3FDF5 0%, #FFE6FA 100%);
+}
